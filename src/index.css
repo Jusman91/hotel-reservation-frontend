@@ -5,22 +5,7 @@
 @tailwind utilities;
 
 @layer base {
-	* {
-		@apply box-border list-none p-0 m-0 scroll-smooth;
-	}
-
 	body {
-		@apply text-white min-h-screen font-inter;
+		@apply min-h-screen overflow-x-hidden font-inter;
 	}
-}
-
-.success {
-	background-color: green;
-	color: white;
-}
-
-.success:hover {
-	background-color: white;
-	color: green;
-	border-color: green;
 }
